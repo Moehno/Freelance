@@ -1,0 +1,9 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
+@{
+    Layout = "main.cshtml";
+}
+
+@await Html.PartialAsync("header")
+@await Html.PartialAsync("portfolio")
+@await Html.PartialAsync("about")
+@await Html.PartialAsync("contact")
