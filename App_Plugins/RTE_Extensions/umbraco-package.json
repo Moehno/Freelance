@@ -1,0 +1,195 @@
+{
+    "name": "RTE Extensions",
+    "alias": "RTE.Extensions",
+    "extensions": [
+        {
+            "type": "tiptapToolbarExtension",
+            "kind": "styleMenu",
+            "alias": "Custom.StyleMenu",
+            "name": "Custom Style Menu",
+            "meta": {
+                "alias": "customStyleMenu",
+                "icon": "icon-palette",
+                "label": "Custom style menu"
+            },
+            "items": [
+                {
+                    "label": "Paragraphs",
+                    "items": [
+                        {
+                            "label": "Normal",
+                            "data": {
+                                "tag": "p"
+                            },
+                            "appearance": {
+                                "icon": "icon-paragraph"
+                            }
+                        },
+                        {
+                            "label": "Lead",
+                            "data": {
+                                "tag": "p",
+                                "class": "lead"
+                            },
+                            "appearance": {
+                                "icon": "icon-paragraph"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Headings",
+                    "items": [
+                        {
+                            "label": "h1",
+                            "data": {
+                                "tag": "h1"
+                            },
+                            "appearance": {
+                                "icon": "icon-heading-1"
+                            }
+                        },
+                        {
+                            "label": "h2",
+                            "data": {
+                                "tag": "h2"
+                            },
+                            "appearance": {
+                                "icon": "icon-heading-2"
+                            }
+                        },
+                        {
+                            "label": "h3",
+                            "data": {
+                                "tag": "h3"
+                            },
+                            "appearance": {
+                                "icon": "icon-heading-3"
+                            }
+                        },
+                        {
+                            "label": "h4",
+                            "data": {
+                                "tag": "h4"
+                            },
+                            "appearance": {
+                                "icon": "icon-heading-4"
+                            }
+                        },
+                        {
+                            "label": "h5",
+                            "data": {
+                                "tag": "h5"
+                            },
+                            "appearance": {
+                                "icon": "icon-heading-5"
+                            }
+                        },
+                        {
+                            "label": "h6",
+                            "data": {
+                                "tag": "h6"
+                            },
+                            "appearance": {
+                                "icon": "icon-heading-6"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Brand Colours",
+                    "items": [
+                        {
+                            "label": "Primary",
+                            "data": {
+                                "tag": "span",
+                                "class": "text-primary"
+                            },
+                            "appearance": {
+                                "icon": "icon-brush-alt",
+                                "style": "color: #1abc9c"
+                            }
+                        },
+                        {
+                            "label": "Secondary",
+                            "data": {
+                                "tag": "span",
+                                "class": "text-secondary"
+                            },
+                            "appearance": {
+                                "icon": "icon-brush-alt",
+                                "style": "color: #2c3e50"
+                            }
+                        },
+                        {
+                            "label": "Success",
+                            "data": {
+                                "tag": "span",
+                                "class": "text-success"
+                            },
+                            "appearance": {
+                                "icon": "icon-brush-alt",
+                                "style": "color: #198754"
+                            }
+                        },
+                        {
+                            "label": "Info",
+                            "data": {
+                                "tag": "span",
+                                "class": "text-info"
+                            },
+                            "appearance": {
+                                "icon": "icon-brush-alt",
+                                "style": "color: #0dcaf0"
+                            }
+                        },
+                        {
+                            "label": "Warning",
+                            "data": {
+                                "tag": "span",
+                                "class": "text-warning"
+                            },
+                            "appearance": {
+                                "icon": "icon-brush-alt",
+                                "style": "color: #ffc107"
+                            }
+                        },
+                        {
+                            "label": "Danger",
+                            "data": {
+                                "tag": "span",
+                                "class": "text-danger"
+                            },
+                            "appearance": {
+                                "icon": "icon-brush-alt",
+                                "style": "color: #dc3545"
+                            }
+                        },
+                        {
+                            "label": "Light",
+                            "data": {
+                                "tag": "span",
+                                "class": "text-light"
+                            },
+                            "appearance": {
+                                "icon": "icon-brush-alt",
+                                "style": "color: #f8f9fa"
+                            }
+                        },
+                        {
+                            "label": "Dark",
+                            "data": {
+                                "tag": "span",
+                                "class": "text-dark"
+                            },
+                            "appearance": {
+                                "icon": "icon-brush-alt",
+                                "style": "color: #212529"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
