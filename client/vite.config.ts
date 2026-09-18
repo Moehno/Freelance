@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
     build: {
         lib: {
-            entry: "src/example-block-custom-views.ts", // your web component source file
+            entry: "src/navigationGroupCustomView.ts", // your web component source file
             formats: ["es"],
         },
         outDir: "../App_Plugins/client", // all compiled files will be placed here

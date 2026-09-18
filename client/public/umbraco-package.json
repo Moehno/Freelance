@@ -4,11 +4,11 @@
   "extensions": [
     {
       "type": "blockEditorCustomView",
-      "alias": "Example.blockEditorCustomView.Product",
-      "name": "Example Block Editor Custom View for Product Block of Block List Editors",
-      "element": "./example-block-custom-view.js",
-      "forContentTypeAlias": "product",
-      "forBlockEditor": "block-list"
+      "alias": "Local.blockEditorCustomView.navigationGroup",
+      "name": "Block Editor Custom View for Navigation Group",
+      "element": "https://localhost:44332/App_Plugins/client/client.js",
+      "forContentTypeAlias": "navigationGroup",
+      "forBlockEditor": "block-grid"
     }
   ]
 }
