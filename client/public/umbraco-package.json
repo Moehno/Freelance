@@ -1,0 +1,14 @@
+{
+  "$schema": "../../umbraco-package-schema.json",
+  "name": "My Customizations",
+  "extensions": [
+    {
+      "type": "blockEditorCustomView",
+      "alias": "Example.blockEditorCustomView.Product",
+      "name": "Example Block Editor Custom View for Product Block of Block List Editors",
+      "element": "./example-block-custom-view.js",
+      "forContentTypeAlias": "product",
+      "forBlockEditor": "block-list"
+    }
+  ]
+}
