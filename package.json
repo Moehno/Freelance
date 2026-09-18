@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@umbraco-cms/backoffice": "^17.6.2"
+  }
+}

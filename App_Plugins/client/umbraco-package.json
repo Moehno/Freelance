@@ -1,0 +1,14 @@
+{
+  "$schema": "../../umbraco-package-schema.json",
+  "name": "My Customizations",
+  "extensions": [
+    {
+      "type": "blockEditorCustomView",
+      "alias": "Local.blockEditorCustomView.navigationGroup",
+      "name": "Block Editor Custom View for Navigation Group",
+      "element": "https://localhost:44332/App_Plugins/client/client.js",
+      "forContentTypeAlias": "navigationGroup",
+      "forBlockEditor": "block-grid"
+    }
+  ]
+}
